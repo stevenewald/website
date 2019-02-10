@@ -1,9 +1,125 @@
+<!DOCTYPE html>
 <html>
-<head>
-<style type="text/css">
-.crosshair { cursor: wait }
+<title>MVAerialViews</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+    html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+    a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+    html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+    h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+    h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.the-wide{letter-spacing:4px}
+    hr{border:0;border-top:1px solid #eee;margin:20px 0}
+    .myimage{width:2750px;height:753px;}img{vertical-align:middle}a{color:inherit}
+    .button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+    .button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+    .display-container{position:relative}.the-tooltip .the-text{display:none}.the-tooltip:hover .the-text{display:inline-block}
+    .container:after,.container:before,.the-panel:after,.the-panel:before,.the-row:after,.the-row:before,.the-row-padding:after,.the-row-padding:before,
+    .top{position:fixed;width:100%;z-index:1}
+    .display-topleft{position:absolute;left:0;top:0}.the-display-topright{position:absolute;right:0;top:0}
+    .display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+    .display-container:hover .the-display-hover{display:block}.display-container:hover span.the-display-hover{display:inline-block}.the-display-hover{display:none}
+    .center{text-align:center}
+    .the-border-bottom{border-bottom:1px solid #ccc}
+    .the-margin-top{margin-top:16px}
+    .the-margin-bottom{margin-bottom:16px}
+    .the-padding{padding:8px 16px}
+    .the-padding-16{padding-top:16px;padding-bottom:16px}.the-padding-24{padding-top:24px;padding-bottom:24px}
+    .the-padding-32{padding-top:32px;padding-bottom:32px}.the-padding-48{padding-top:48px;padding-bottom:48px}
+    .the-right{float:right}
+    .button:hover{color:#000;background-color:#ccc}
+    .the-white{color:#000;background-color:#fff}
+    .the-black{color:#fff;background-color:#000}
+    .the-light-grey{color:#000}
+    .white{color:#fff}
+    .the-border-light-grey{border-color:#f1f1f1}
 </style>
-</head>
 <body>
-<h3 class="crosshair">Hey</h3>
+
+<!-- Navbar -->
+<div class="top">
+    <div class="the-bar the-white the-wide the-padding the-card">
+        <a href="#home" class="button"><b>MV</b>AerialViews</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="the-right the-hide-small">
+            <a href="#projects" class="button">Projects</a>
+            <a href="#about" class="button">About</a>
+            <a href="#contact" class="button">Contact</a>
+        </div>
+    </div>
+</div>
+
+<!--Header-->
+<header class="display-container the-content the-wide" style="max-width:1500px;" id="home">
+    <img class="myimage" src="https://storage.googleapis.com/wzukusers/user-19151839/images/5960f4c280993JxUqBj0/MV2-Panorama.png" alt="Architecture" width="2713" height="746">
+    <div class="display-middle the-margin-top center">
+        <h1 class="the-xxlarge the-text-white"><span class="the-padding the-black the-opacity-min"><b>MVAerialViews</b></span> <span class="the-hide-small white"></span></h1>
+    </div>
+</header>
+
+<!-- Page content -->
+<div class="the-content the-padding" style="max-width:1564px">
+
+    <!-- Project Section -->
+    <div class="container the-padding-32" id="portfolio">
+        <h3 class="the-border-bottom the-border-light-grey the-padding-16">Portfolio</h3>
+    </div>
+
+    <div class="the-row-padding">
+        <div class="the-col l3 m6 the-margin-bottom">
+            <div class="display-container">
+                <div class="display-topleft the-black the-padding">15 Dover Street</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ec4OL2hD_Jk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="the-col l3 m6 the-margin-bottom">
+            <div class="display-container">
+                <div class="display-topleft the-black the-padding">317 East Chop Drive</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A5a4V1Mcupk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container the-padding-32" id="about">
+        <h3 class="the-border-bottom the-border-light-grey the-padding-16">About</h3>
+        <p>Martha's Vineyard Aerial Views provides video services to real estate brokers on Marthas Vineyard between June and August.
+            Steve has been providing his serices for the past five years, and placeholder text ill put this in later placeholder textplaceholder textplaceholder textplaceholder textplaceholder textplaceholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text
+            placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text
+            placeholder text placeholder text placeholder text placeholder text placeholder text
+        </p>
+    </div>
+
+    <div class="the-row-padding the-grayscale">
+        <h3 class="the-border-bottom the-border-light-grey the-padding-16"></h3>
+        <div class="the-col l3 m6 the-margin-bottom">
+            <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pclodge.com%2Fwp-content%2Fuploads%2F2014%2F08%2Fplaceholder.png&f=1" alt="Steve" style="width:40%">
+            <h3>Steven Ewald</h3>
+            <p class="the-opacity">Owner and Operator of MVAV</p>
+            <p>Marthas Vineyard Aerial Views was founded and is operated by Steven Ewald. Steve started flying quadcopters and planes seven years ago. He continues to upgrade his equipment and has been successfully selling his photo and video services for the ​past five years.</p>
+            <p><button class="button the-light-grey the-block">Contact</button></p>
+        </div>
+    </div>
+
+    <!got this code from https://embedgooglemaps.com/en/>
+    <div class="container">
+        <div style="overflow:hidden;width: 700px;position: relative;">
+            <iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=29%20East%20Chop%20Drive%2C%20Oak%20Bluffs+(MVAV)&amp;ie=UTF8&amp;t=h&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;">
+        </div><style>#gmap_canvas img{max-width:none;background:none}</style>
+        </div>
+        <br />
+    </div>
+
+    <!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="center the-black the-padding-16">
+    <p>Copyright MVAerialViews 2018</p>
+</footer>
+
 </body>
+</html>
