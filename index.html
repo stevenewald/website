@@ -11,7 +11,9 @@
     h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
     h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.the-wide{letter-spacing:4px}
     hr{border:0;border-top:1px solid #eee;margin:20px 0}
-    .myimage{width:2750px;height:753px;}img{vertical-align:middle}a{color:inherit}
+    .scrolldown{position: absolute;top: 650px;left: 720px}
+    .scrolldownimage{width:100px;height:100px;}
+    .myimage{width:2750px;height:753px;position:relative}
     .button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
     .button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
     .display-container{position:relative}.the-tooltip .the-text{display:none}.the-tooltip:hover .the-text{display:inline-block}
@@ -41,7 +43,6 @@
 <div class="top">
     <div class="the-bar the-white the-wide the-padding the-card">
         <a href="#home" class="button"><b>MV</b>AerialViews</a>
-        <!-- Float links to the right. Hide them on small screens -->
         <div class="the-right the-hide-small">
             <a href="#projects" class="button">Projects</a>
             <a href="#about" class="button">About</a>
@@ -53,6 +54,7 @@
 <!--Header-->
 <header class="display-container the-content the-wide" style="max-width:1500px;" id="home">
     <img class="myimage" src="https://storage.googleapis.com/wzukusers/user-19151839/images/5960f4c280993JxUqBj0/MV2-Panorama.png" alt="Architecture" width="2713" height="746">
+    <img class="scrolldownimage scrolldown" src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Ftemp1.monarchbutterfly.org%2Fwp-content%2Fuploads%2F2016%2F10%2Fscroll-down.png&f=1" alt="Image" width="100" height="100">
     <div class="display-middle the-margin-top center">
         <h1 class="the-xxlarge the-text-white"><span class="the-padding the-black the-opacity-min"><b>MVAerialViews</b></span> <span class="the-hide-small white"></span></h1>
     </div>
@@ -102,7 +104,7 @@
         </div>
     </div>
 
-    <!got this code from https://embedgooglemaps.com/en/>
+    <!--got this code from https://embedgooglemaps.com/en/-->
     <div class="container">
         <div style="overflow:hidden;width: 700px;position: relative;">
             <iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=29%20East%20Chop%20Drive%2C%20Oak%20Bluffs+(MVAV)&amp;ie=UTF8&amp;t=h&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -111,8 +113,6 @@
         </div>
         <br />
     </div>
-
-    <!-- End page content -->
 </div>
 
 
