@@ -76,7 +76,7 @@ body, html {
     .scrolldown{position:absolute;top:90%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 
     .firstheaderimage{
-        left:-400px;
+        left:-28%;
 	width:181%;
         height:120%;position:relative;filter:brightness(80%);background-position:center;background-repeat:no-repeat;background-size:cover;}
 
@@ -86,7 +86,7 @@ body, html {
     .mapbackgroundrectangle{position:absolute;
         top:242%;
         left:25.7%;
-        width:740px;height:700px;border:300px solid #ffffff;opacity:60%;box-shadow: 0px 0px 25px #000000;}
+        width:48.7%;height:92%;border:300px solid #ffffff;opacity:60%;box-shadow: 0px 0px 25px #000000;}
 
     .thirdbgpic{
         height:110%;width:110%;position:relative;filter:opacity(40%);background-position:center;background-repeat:no-repeat;background-size:cover;}
@@ -101,15 +101,15 @@ body, html {
 
     .button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 
-    .leftvideo{position:absolute;top:122%;right:31%;}
+    .topvideo{position:absolute;top:122%;right:31%;}
 
     .middleline{position:absolute;top:164%;right:33.3%;}
 
-    .rightvideo{position:absolute;top:170%;right:31%;}
+    .bottomvideo{position:absolute;top:170%;right:31%;}
 
     .portfoliotext{position:absolute;top:105%;right:37%;}
 
-    .videobackgroundbox{position:absolute;width:600px;height:710px;border:300px solid #ffffff;top:120%;left:31%;opacity:60%;;box-shadow: 0px 0px 20px #000000;}
+    .videobackgroundbox{position:absolute;width:37%;height:94%;border:300px solid #ffffff;top:120%;left:31%;opacity:60%;;box-shadow: 0px 0px 20px #000000;}
 
     h2{font-family: "Open Sans"; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 800; line-height: 26.4px; letter-spacing: 3px}
 
