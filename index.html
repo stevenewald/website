@@ -53,7 +53,6 @@
         -webkit-animation-name: fadeIn;
         animation-name: fadeIn;
     }
-
     html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
     html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
     a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
@@ -67,33 +66,32 @@
         height:120%;position:relative;filter:brightness(80%);background-position:center;background-repeat:no-repeat;background-size:cover;}
     .myimage2{
         height:110%;width:110%;position:relative;filter:opacity(40%);background-position:center;background-repeat:no-repeat;background-size:cover;}
+    .thirdbgpic{
+        height:110%;width:110%;position:relative;filter:opacity(40%);background-position:center;background-repeat:no-repeat;background-size:cover;}
+    .themap{
+        position:absolute;top:290%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+    .mvavlocation{
+        position:absolute;top:240%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
     .button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
     .button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-    .display-container{position:relative}
     .leftvideo{position:absolute;top:122%;right:31%;}
     .middleline{position:absolute;top:164%;right:33.3%;}
     .rightvideo{position:absolute;top:170%;right:31%;}
-    .portfoliotext{position:absolute;top:100%;right:37%;}
-    h2{ font-family: "Open Sans"; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 800; line-height: 26.4px; letter-spacing: 3px}
+    .portfoliotext{position:absolute;top:105%;right:37%;}
+    h2{font-family: "Open Sans"; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 800; line-height: 26.4px; letter-spacing: 3px}
     .top{position:fixed;width:100%;z-index:1}
-    h6{ font-family: "Open Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; letter-spacing: 1px}
+    h6{font-family: "Open Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; letter-spacing: 1px}
     .display-topleft{position:absolute;left:0;top:0}
     .display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
     .center{text-align:center}
-    .the-border-bottom{border-bottom:1px solid #ccc}
     .the-margin-top{margin-top:16px}
-    .the-margin-bottom{margin-bottom:16px}
     .the-padding{padding:8px 16px}
     .the-padding-16{padding-top:16px;padding-bottom:16px}
-    .the-padding-32{padding-top:32px;padding-bottom:32px}
     .the-right{float:right}
     .button:hover{color:#000;background-color:#ccc}
-    .the-white{color:#000;background-color:#fff}
     .the-black{color:#fff;background-color:#000}
-    .the-light-grey{color:#000}
     .white{color:#fff}
     .aqua{color:#000;background-color:#00BFFF}
-    .the-border-light-grey{border-color:#f1f1f1}
 </style>
 <body>
 
@@ -129,7 +127,7 @@
     <img class="myimage2" src=https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fedge.alluremedia.com.au%2Fm%2Fg%2F2016%2F03%2FPhantom-4-Action-5.jpg&f=1">
 
     <!-- Project Section -->
-    <div class="the-padding-32 portfoliotext" id="portfolio">
+    <div class="portfoliotext" id="portfolio">
         <h2>Portfolio Examples</h2>
     </div>
 
@@ -152,42 +150,28 @@
         </div>
     </div>
 
-    <!-- About Section -->
-    <div class="container the-padding-32" id="about">
-        <h3 class="the-border-bottom the-border-light-grey the-padding-16">About</h3>
-        <p>Martha's Vineyard Aerial Views provides video services to real estate brokers on Marthas Vineyard between June and August.
-            Steve has been providing his serices for the past five years, and placeholder text ill put this in later placeholder textplaceholder textplaceholder textplaceholder textplaceholder textplaceholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text
-            placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text
-            placeholder text placeholder text placeholder text placeholder text placeholder text
-        </p>
-    </div>
-
     <div class="the-row-padding the-grayscale">
-        <h3 class="the-border-bottom the-border-light-grey the-padding-16"></h3>
-        <div class="the-col l3 m6 the-margin-bottom">
-            <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pclodge.com%2Fwp-content%2Fuploads%2F2014%2F08%2Fplaceholder.png&f=1" alt="Steve" style="width:40%">
-            <h3>Steven Ewald</h3>
-            <p class="the-opacity">Owner and Operator of MVAV</p>
-            <p>Marthas Vineyard Aerial Views was founded and is operated by Steven Ewald. Steve started flying quadcopters and planes seven years ago. He continues to upgrade his equipment and has been successfully selling his photo and video services for the past five years.</p>
-            <p><button class="button the-light-grey the-block">Contact</button></p>
+        <img class="thirdbgpic" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FLieIde5ByqU%2Fmaxresdefault.jpg&f=1">
+        <!--got this code from https://embedgooglemaps.com/en/-->
+        <div style="position:absolute;
+        top:242%;
+        left:25.7%;
+        width:740px;height:700px;border:300px solid #ffffff;opacity:60%;box-shadow: 0px 0px 25px #000000;"></div>
+        <div class="themap">
+            <div style="overflow:hidden;width: 700px;position: relative;">
+                <iframe width="1050" height="660" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=29%20East%20Chop%20Drive%2C%20Oak%20Bluffs+(MVAV)&amp;ie=UTF8&amp;t=h&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;">
+                </div><style>#gmap_canvas img{max-width:none;background:none}</style>
+            </div>
+            <br />
         </div>
     </div>
 
-    <!--got this code from https://embedgooglemaps.com/en/-->
-    <div class="container">
-        <div style="overflow:hidden;width: 700px;position: relative;">
-            <iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=29%20East%20Chop%20Drive%2C%20Oak%20Bluffs+(MVAV)&amp;ie=UTF8&amp;t=h&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;">
-            </div><style>#gmap_canvas img{max-width:none;background:none}</style>
-        </div>
-        <br />
-    </div>
-</div>
 
 
 <!-- Footer -->
 <footer class="center the-black the-padding-16">
-    <p>Copyright MVAerialViews 2018</p>
+    <p>Copyright MVAerialViews 2019</p>
 </footer>
 
 </body>
